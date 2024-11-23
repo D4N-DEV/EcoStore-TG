@@ -1,0 +1,99 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to bottom, #4caf50, #3e8e42);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 0px 0px 100px 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 800px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.product {
+    flex: 3;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+    background-color: gainsboro;
+    align-self: center;
+}
+
+footer {
+    text-align: bottom;
+    padding: 10px 10px 10px 1px;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    background: #333;
+    color: white;
+    height: 25px;
+    align-self: bottom;
+    align-content: bottom;
+}
+
+.add {
+    text-align: right;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+  align-content: center;
+  width: 500px; height: 50px; 
+  margin: 15px 15px 15px 15px #ccc;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+  background: linear-gradient(to right, #3e8e42, #4caf50);
+  text-align: center;
+   text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.product-container {
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+
+details {
+    align-self: left;
+}
